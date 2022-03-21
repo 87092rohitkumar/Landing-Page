@@ -1,0 +1,169 @@
+html{
+    scroll-behavior: smooth;
+    background-color: #f2f2f2;
+}
+.header{
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: flex-end;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.topbar{
+    flex-basis: 30%;
+    font-family: sans-serif;
+    color: gray;
+}
+.stunning-logo{
+    height: 50px;
+    cursor: pointer;
+}
+#menu{
+    display: flex;
+    justify-content: space-around;
+}
+#topbar-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+#your-acc-btn{
+    color: #A389CC;
+    background-color: #FFD8DB;
+    padding: 20px 36px;
+    border-radius: 20px;
+    border: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+#menu div:hover{
+    font-weight: bolder;
+    color: #000;
+    text-decoration: underline 3px #8071d0;
+    cursor: pointer;
+}
+.main-section{
+    display: flex;
+    margin-top: 120px;
+    padding-top: 40px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.workplace-section{
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    flex-basis: 35%;
+    box-sizing: border-box;
+}
+.landing-section{
+    padding-left: 6%;
+    flex-basis: 65%;
+    box-sizing: border-box;
+}
+.landing{
+    width: 100%;
+    height: 70vh;
+}
+.workplace-heading,.workplace-desc,.action-btn{
+    margin: 15px 0;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+.workplace-heading{
+    font-family: sans-serif;
+    font-size: 95px;
+    font-weight: 700;
+}
+#dot{
+    color: #5243c0;
+}
+.workplace-desc{
+    font-family: sans-serif;
+    color: gray;
+    font-size: 22px;
+}
+.action-btn{
+    display: flex;
+    align-items: flex-start;
+}
+.arrow-img-div{
+    margin: 0 20px;
+}
+.arrow-img{
+    cursor: pointer;
+}
+#new-acc-btn{
+    color: #ffffff;
+    background-color: #5243c0;
+    padding: 24px 60px;
+    border-radius: 25px;
+    border: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.cards{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: sans-serif;
+    margin: 10px 0;
+    padding: 8px 10px;
+    border-radius: 15px;
+    background-color: lightgray;
+    box-sizing: border-box;
+}
+.checkbox{
+    flex-basis: 15%;
+    height: 100%;
+    background: url("resource/tick-gray.png") no-repeat;
+}
+.design-name{
+    flex-basis: 30%;
+}
+.user{
+    flex-basis: 15%;
+}
+.date{
+    flex-basis: 20%;
+}
+.sample-color{
+    flex-basis: 20%;
+}
+.sample-color span{
+    display: inline-block;
+    width: 30px;
+    height: 15px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.cards:hover .checkbox{
+    background: url("resource/tick-blue.png") no-repeat;
+}
+.cards:hover{
+    background-color: #ffffff;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px lightgray;
+}
+#pink{
+    background-color: #fed7da;
+}
+#red{
+    background-color: #fd6534;
+}
+#green{
+    background-color: #9ed095;
+}
+#yellow{
+    background-color: #ffe4a0;
+}
